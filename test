@@ -1,0 +1,5 @@
+cd ../flow-parser-macros && \
+sbt publish-local && \
+cd ../flow-parser-macros-test && \
+sbt test
+
